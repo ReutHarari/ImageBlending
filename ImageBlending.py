@@ -315,3 +315,7 @@ def blending_example2():
     plt.show()
 
     return im1, im2, np.round(mask).astype("bool"), b_image
+
+def main():
+    blending_example1()
+    blending_example2()
